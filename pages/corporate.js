@@ -43,7 +43,7 @@ export default function Corporate() {
 
       <section className={styles.ctas}>
         <button className={styles.primary}>
-          <a href="https://buy.stripe.com/aFaeV62kA65s2zhaoE2go00" target="_blank" rel="noopener noreferrer">Reserve Early Access — $79</a>
+          <a href="https://buy.stripe.com/aFaeV62kA65s2zhaoE2go00" target="_blank" rel="noopener noreferrer">Get on the Early Access Waitlist — $79</a>
         </button>
         <button className={styles.secondary}>
           <a href="/enterprise">Schedule Consultation</a>

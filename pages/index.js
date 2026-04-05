@@ -50,7 +50,7 @@ export default function Home() {
 
       <section className={styles.costSavings}>
         <h3>The Real Economics</h3>
-        <p>One project pays for itself.</p>
+        <p>One project pays for itself. Full product: $799 (one-time, no subscription). Early access: $79.</p>
         
         <div className={styles.taskBreakdown}>
           <div className={styles.task}>
@@ -129,13 +129,13 @@ export default function Home() {
         <div className={styles.totalSavings}>
           <h4>Per Project Total</h4>
           <p className={styles.bigNumber}>31–50 hours | $1,980–$4,250</p>
-          <p>Your $79 investment pays for itself on your first job. Everything after that is pure margin.</p>
+          <p><strong>$79 early access now. $799 full price (one-time, no subscription).</strong> Your first job saves you $1,980–$4,250. It pays for the full software on day one.</p>
         </div>
       </section>
 
       <section className={styles.ctas}>
         <button className={styles.primary}>
-          <a href="https://buy.stripe.com/aFaeV62kA65s2zhaoE2go00" target="_blank" rel="noopener noreferrer">Reserve Early Access — $79</a>
+          <a href="https://buy.stripe.com/aFaeV62kA65s2zhaoE2go00" target="_blank" rel="noopener noreferrer">Get on the Early Access Waitlist — $79</a>
         </button>
         <button className={styles.secondary}>
           <a href="/enterprise">Schedule Consultation</a>
