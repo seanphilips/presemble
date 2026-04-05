@@ -47,6 +47,22 @@ export default function Documentary() {
         <p>
           That's what PRESEMBLE does.
         </p>
+
+        <div className={styles.pricing}>
+          <h3>The Economics</h3>
+          <p>
+            Documentary and investigative work means excavation. You're spending <strong>weeks searching through terabytes</strong> before you even get to the creative work. That's thousands in labor before the real editing starts.
+          </p>
+          <p>
+            PRESEMBLE collapses the search phase. You don't eliminate the excavation—you skip the scrub and go straight to the story.
+          </p>
+          <p>
+            <strong>$79 beta access</strong> — Full software, all features, local storage only. When we launch at $799, your $79 is a credit toward the full price.
+          </p>
+          <p>
+            One project justifies the full year's investment. Everything after that is pure time back.
+          </p>
+        </div>
       </section>
 
       <section className={styles.ctas}>

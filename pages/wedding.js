@@ -35,6 +35,22 @@ export default function Wedding() {
             allowFullScreen
           ></iframe>
         </div>
+
+        <div className={styles.pricing}>
+          <h3>The Economics</h3>
+          <p>
+            You spend 8 hours hunting through footage on every wedding. That's 16–20 hours of billable time gone. At $60/hour (national average for wedding editors), that's <strong>$960 to $1,200 per wedding</strong> in labor you're eating.
+          </p>
+          <p>
+            PRESEMBLE eliminates that. One wedding pays for it.
+          </p>
+          <p>
+            <strong>$79 beta access</strong> — Full software, all features, local storage only. When we launch at $799, your $79 is a credit toward the full price.
+          </p>
+          <p>
+            Buy it. Use it once. You just made $900. The rest is profit.
+          </p>
+        </div>
       </section>
 
       <section className={styles.ctas}>

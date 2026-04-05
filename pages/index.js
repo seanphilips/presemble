@@ -96,6 +96,59 @@ export default function Home() {
         </table>
       </section>
 
+      <section className={styles.costSavings}>
+        <h3>The Real Economics</h3>
+        <p>One project pays for itself.</p>
+        
+        <div className={styles.taskBreakdown}>
+          <div className={styles.task}>
+            <h4>Renaming & organizing footage</h4>
+            <p className={styles.traditional}>Traditional: 4–6 hours @ $60/hr</p>
+            <p className={styles.cost}>$240–$360</p>
+            <p className={styles.presemble}>PRESEMBLE: Eliminated</p>
+            <p className={styles.savings}>💰 Save: $240–$360</p>
+          </div>
+
+          <div className={styles.task}>
+            <h4>Transcription</h4>
+            <p className={styles.traditional}>Traditional: 2–4 hours or $100–200 service</p>
+            <p className={styles.cost}>$120–$240</p>
+            <p className={styles.presemble}>PRESEMBLE: Automatic</p>
+            <p className={styles.savings}>💰 Save: $120–$240</p>
+          </div>
+
+          <div className={styles.task}>
+            <h4>Rewriting narratives & story flows</h4>
+            <p className={styles.traditional}>Traditional: 3–5 iterations × 2 hours each</p>
+            <p className={styles.cost}>$360–$600</p>
+            <p className={styles.presemble}>PRESEMBLE: Infinite LLM iterations @ zero time</p>
+            <p className={styles.savings}>💰 Save: $360–$600</p>
+          </div>
+
+          <div className={styles.task}>
+            <h4>Reframing stories & rebuilding timelines</h4>
+            <p className={styles.traditional}>Traditional: 8–12 hours of scrubbing & recutting</p>
+            <p className={styles.cost}>$480–$720</p>
+            <p className={styles.presemble}>PRESEMBLE: 30 minutes of prompting</p>
+            <p className={styles.savings}>💰 Save: $450–$690</p>
+          </div>
+
+          <div className={styles.task}>
+            <h4>Extracting clips from long-form content</h4>
+            <p className={styles.traditional}>Traditional: 4–6 hours of watching & selecting</p>
+            <p className={styles.cost}>$240–$360</p>
+            <p className={styles.presemble}>PRESEMBLE: 10 minutes of prompting</p>
+            <p className={styles.savings}>💰 Save: $230–$350</p>
+          </div>
+        </div>
+
+        <div className={styles.totalSavings}>
+          <h4>Per Project Total</h4>
+          <p className={styles.bigNumber}>$1,400–$2,840</p>
+          <p>Your $79 investment pays for itself on your first gig.</p>
+        </div>
+      </section>
+
       <section className={styles.usecases}>
         <h3>Choose your workflow</h3>
         <div className={styles.usecaseGrid}>

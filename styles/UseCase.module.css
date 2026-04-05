@@ -52,6 +52,31 @@
   overflow: hidden;
 }
 
+.pricing {
+  background: rgba(52, 211, 153, 0.08);
+  border: 1px solid rgba(52, 211, 153, 0.2);
+  padding: 40px;
+  border-radius: 8px;
+  margin: 40px 0;
+}
+
+.pricing h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #34d399;
+}
+
+.pricing p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  line-height: 1.7;
+  color: rgba(255,255,255,0.85);
+}
+
+.pricing strong {
+  color: #34d399;
+}
+
 .ctas {
   display: flex;
   gap: 20px;
