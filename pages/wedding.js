@@ -39,7 +39,7 @@ export default function Wedding() {
 
       <section className={styles.ctas}>
         <button className={styles.primary}>
-          <a href="/reserve">Reserve Early Access — $79</a>
+          <a href="https://buy.stripe.com/aFaeV62kA65s2zhaoE2go00" target="_blank" rel="noopener noreferrer">Reserve Early Access — $79</a>
         </button>
         <button className={styles.secondary}>
           <a href="/enterprise">Schedule Consultation</a>
