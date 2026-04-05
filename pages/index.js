@@ -50,7 +50,7 @@ export default function Home() {
 
       <section className={styles.costSavings}>
         <h3>The Real Economics</h3>
-        <p>One project pays for itself. Full product: $799 (one-time, no subscription). Early access: $79.</p>
+        <p><strong>$79 gets you on the early access waitlist.</strong> Full product: $799 (one-time, no subscription). When we launch, your $79 becomes a credit toward the full price.</p>
         
         <div className={styles.taskBreakdown}>
           <div className={styles.task}>
@@ -136,9 +136,6 @@ export default function Home() {
       <section className={styles.ctas}>
         <button className={styles.primary}>
           <a href="https://buy.stripe.com/aFaeV62kA65s2zhaoE2go00" target="_blank" rel="noopener noreferrer">Get on the Early Access Waitlist — $79</a>
-        </button>
-        <button className={styles.secondary}>
-          <a href="/enterprise">Schedule Consultation</a>
         </button>
       </section>
 

@@ -33,10 +33,10 @@ export default function Corporate() {
             With PRESEMBLE, those revisions take minutes instead of hours. One corporate event covers the entire year's software cost.
           </p>
           <p>
-            <strong>$79 beta access</strong> — Full software, all features, local storage only. When we launch at $799, your $79 is a credit toward the full price.
+            <strong>$79 puts you on the early access waitlist.</strong> When we launch, you get first access. Full software costs $799 (one-time, no subscription). Your $79 becomes a credit toward that price.
           </p>
           <p>
-            Land one more event. That's your profit margin for the year.
+            Land one more event. That's your software paid for, and pure profit after that.
           </p>
         </div>
       </section>
@@ -44,9 +44,6 @@ export default function Corporate() {
       <section className={styles.ctas}>
         <button className={styles.primary}>
           <a href="https://buy.stripe.com/aFaeV62kA65s2zhaoE2go00" target="_blank" rel="noopener noreferrer">Get on the Early Access Waitlist — $79</a>
-        </button>
-        <button className={styles.secondary}>
-          <a href="/enterprise">Schedule Consultation</a>
         </button>
       </section>
     </div>

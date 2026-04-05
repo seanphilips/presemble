@@ -57,10 +57,10 @@ export default function Documentary() {
             PRESEMBLE collapses the search phase. You don't eliminate the excavation—you skip the scrub and go straight to the story.
           </p>
           <p>
-            <strong>$79 beta access</strong> — Full software, all features, local storage only. When we launch at $799, your $79 is a credit toward the full price.
+            <strong>$79 puts you on the early access waitlist.</strong> When we launch, you get first access. Full software costs $799 (one-time, no subscription). Your $79 becomes a credit toward that price.
           </p>
           <p>
-            One project justifies the full year's investment. Everything after that is pure time back.
+            One project saves you $2,000+. The software pays for itself on day one.
           </p>
         </div>
       </section>
@@ -68,9 +68,6 @@ export default function Documentary() {
       <section className={styles.ctas}>
         <button className={styles.primary}>
           <a href="https://buy.stripe.com/aFaeV62kA65s2zhaoE2go00" target="_blank" rel="noopener noreferrer">Get on the Early Access Waitlist — $79</a>
-        </button>
-        <button className={styles.secondary}>
-          <a href="/enterprise">Schedule Consultation</a>
         </button>
       </section>
     </div>

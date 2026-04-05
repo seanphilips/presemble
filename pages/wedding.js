@@ -45,10 +45,10 @@ export default function Wedding() {
             PRESEMBLE eliminates that. One wedding pays for it.
           </p>
           <p>
-            <strong>$79 beta access</strong> — Full software, all features, local storage only. When we launch at $799, your $79 is a credit toward the full price.
+            <strong>$79 puts you on the early access waitlist.</strong> When we launch, you get first access. Full software costs $799 (one-time, no subscription). Your $79 becomes a credit toward that price.
           </p>
           <p>
-            Buy it. Use it once. You just made $900. The rest is profit.
+            One wedding saves you $900–$1,200. The software pays for itself immediately.
           </p>
         </div>
       </section>
@@ -56,9 +56,6 @@ export default function Wedding() {
       <section className={styles.ctas}>
         <button className={styles.primary}>
           <a href="https://buy.stripe.com/aFaeV62kA65s2zhaoE2go00" target="_blank" rel="noopener noreferrer">Get on the Early Access Waitlist — $79</a>
-        </button>
-        <button className={styles.secondary}>
-          <a href="/enterprise">Schedule Consultation</a>
         </button>
       </section>
     </div>
