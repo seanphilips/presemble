@@ -41,7 +41,7 @@ export default function WaitlistForm() {
         return
       }
 
-      setMessage("You're on the waitlist! We'll be in touch soon.")
+      setMessage("Success! You are on the waitlist. We will be in touch soon.")
       setFormData({
         email: '',
         projectsPerYear: '',
