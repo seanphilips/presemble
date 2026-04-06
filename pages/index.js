@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
+import WaitlistForm from '../components/WaitlistForm'
 
 export default function Home() {
   return (
@@ -50,7 +51,7 @@ export default function Home() {
 
       <section className={styles.costSavings}>
         <h3>The Real Economics</h3>
-        <p><strong>$79 gets you on the early access waitlist.</strong> Full product: $799 (one-time, no subscription). When we launch, your $79 becomes a credit toward the full price.</p>
+        <p><strong>Join the waitlist for early access.</strong> Full product: $799 (one-time, no subscription). Early access members get first priority when we launch.</p>
         
         <div className={styles.taskBreakdown}>
           <div className={styles.task}>
@@ -129,14 +130,14 @@ export default function Home() {
         <div className={styles.totalSavings}>
           <h4>Per Project Total</h4>
           <p className={styles.bigNumber}>31–50 hours | $1,980–$4,250</p>
-          <p><strong>$79 early access now. $799 full price (one-time, no subscription).</strong> Your first job saves you $1,980–$4,250. It pays for the full software on day one.</p>
+          <p><strong>$799 full price (one-time, no subscription).</strong> Your first job saves you $1,980–$4,250. It pays for the full software on day one.</p>
         </div>
       </section>
 
       <section className={styles.ctas}>
-        <button className={styles.primary}>
-          <a href="https://buy.stripe.com/aFaeV62kA65s2zhaoE2go00" target="_blank" rel="noopener noreferrer">Get on the Early Access Waitlist — $79</a>
-        </button>
+        <h3>Join the Waitlist</h3>
+        <p>Sign up to get early access to PRESEMBLE when we launch.</p>
+        <WaitlistForm />
       </section>
 
       <section className={styles.comparison}>
