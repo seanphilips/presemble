@@ -41,7 +41,7 @@ export default function WaitlistForm() {
         return
       }
 
-      setMessage("Success! You are on the waitlist. We will be in touch soon.")
+      setMessage('Added to waitlist. Check your email.')
       setFormData({
         email: '',
         projectsPerYear: '',
@@ -82,7 +82,7 @@ export default function WaitlistForm() {
           <option value="6-12">6-12 projects</option>
           <option value="13-25">13-25 projects</option>
           <option value="26-50">26-50 projects</option>
-          <option value="50+">50+ projects</option>
+          <option value="50+">50 plus projects</option>
         </select>
       </div>
 
