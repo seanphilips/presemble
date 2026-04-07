@@ -26,18 +26,20 @@ export default function SignupForm() {
     setError('')
 
     try {
-      const response = await fetch('/api/waitlist', {
+      const response = await fetch('https://formspree.io/f/mojprjpl', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
         },
-        body: JSON.stringify(formData)
+        body: JSON.stringify({
+          email: formData.email,
+          projects_per_year: formData.projectsPerYear || 'not specified',
+          nle: formData.nle || 'not specified'
+        })
       })
 
-      const data = await response.json()
-
       if (!response.ok) {
-        setError(data.error || 'Something went wrong. Please try again.')
+        setError('Something went wrong. Please try again.')
         return
       }
 
